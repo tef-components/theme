@@ -1,7 +1,7 @@
 {
   "name": "theme_telefonica",
   "version": "0.2.39",
-  "homepage": "https://github.com/tc-components/theme_telefonica",
+  "homepage": "https://github.com/tef-components/theme_telefonica",
   "authors": [
     "the TEF components team"
   ],
@@ -18,22 +18,21 @@
     "bower_components"
   ],
   "dependencies": {
-    "icons": "tc-components/icons",
-    "buttons": "tc-components/buttons",
-    "button-groups": "tc-components/button-groups",
-    "inputs": "tc-components/inputs",
-    "dropdowns": "tc-components/dropdowns",
-    "checkboxes": "tc-components/checkboxes",
-    "radios": "tc-components/radios",
-    "modals": "tc-components/modals",
-    "headers": "tc-components/headers",
-    "utils": "tc-components/utils",
-    "grid": "tc-components/grid",
-    "sidebars": "tc-components/sidebars",
-    "tabs": "tc-components/tabs",
-    "toolbars": "tc-components/toolbars",
-    "tables": "tc-components/tables",
-    "tooltips": "tc-components/tooltips",
-    "lists": "tc-components/lists"
+    "icons": "tef-components/icons",
+    "buttons": "tef-components/buttons",
+    "inputs": "tef-components/inputs",
+    "dropdowns": "tef-components/dropdowns",
+    "checkboxes": "tef-components/checkboxes",
+    "radios": "tef-components/radios",
+    "modals": "tef-components/modals",
+    "headers": "tef-components/headers",
+    "utils": "tef-components/utils",
+    "grid": "tef-components/grid",
+    "sidebars": "tef-components/sidebars",
+    "tabs": "tef-components/tabs",
+    "toolbars": "tef-components/toolbars",
+    "tables": "tef-components/tables",
+    "tooltips": "tef-components/tooltips",
+    "lists": "tef-components/lists"
   }
 }
