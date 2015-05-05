@@ -1,0 +1,32 @@
+{
+  "name": "utils",
+  "version": "0.2.21",
+  "homepage": "https://github.com/tef-components/utils",
+  "authors": [
+    "the TEF components team"
+  ],
+  "description": "TEF components - utils",
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "bower.json",
+    ".gitignore",
+    "README.md",
+    "Gruntfile.js",
+    "package.json",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "buttons": "tef-components/buttons"
+  },
+  "_release": "0.2.21",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.2.21",
+    "commit": "a625534849ba43bdd9642ec0ced0e28df050ab1b"
+  },
+  "_source": "git://github.com/tef-components/utils.git",
+  "_target": "*",
+  "_originalSource": "tef-components/utils"
+}

@@ -19,23 +19,6 @@ module.exports = function(grunt) {
       },
     },
 
-    concat: {
-      default: {
-       src: [
-          '../icons/fonts/icons.css',
-          'css/tc-components.css',
-        ],
-        dest: 'css/tc-components.css'
-      }
-    },
-    
-    copy: {
-      eot: {
-        src: '../icons/fonts/icons.eot',
-        dest: 'css/icons.eot',
-      }
-    },
-
     cssmin: {
       options: {
         shorthandCompacting: false,
@@ -98,8 +81,8 @@ module.exports = function(grunt) {
 
     watch: {
       styles: {
-        files: ['../**/less/*.less'],
-        tasks: ['less', 'concat','cssmin'],
+        files: ['less/**/*.less'],
+        tasks: ['less','autoprefixer','cssmin'],
         options: {
           nospawn: true,
           livereload: true
@@ -110,16 +93,14 @@ module.exports = function(grunt) {
 
   grunt.registerTask('default', [
     'less',
-    'concat',
+    'autoprefixer',
     'cssmin',
     'watch'
   ]);
 
   grunt.registerTask('release', [
-    'copy',
     'less',
     'autoprefixer',
-    'concat',
     'cssmin',
     'exec:add',
     'prompt',

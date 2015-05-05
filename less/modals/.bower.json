@@ -1,0 +1,34 @@
+{
+  "name": "modals",
+  "version": "0.2.22",
+  "homepage": "https://github.com/tef-components/modals",
+  "authors": [
+    "the TEF components team"
+  ],
+  "description": "TEF components - modals",
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "bower.json",
+    ".gitignore",
+    "README.md",
+    "Gruntfile.js",
+    "package.json",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "buttons": "tef-components/buttons",
+    "icons": "tef-components/icons",
+    "utils": "tef-components/utils"
+  },
+  "_release": "0.2.22",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.2.22",
+    "commit": "8c51a1214ecc098f6a0a169415bc8b10087b3414"
+  },
+  "_source": "git://github.com/tef-components/modals.git",
+  "_target": "*",
+  "_originalSource": "tef-components/modals"
+}

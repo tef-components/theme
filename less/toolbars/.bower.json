@@ -1,0 +1,33 @@
+{
+  "name": "toolbars",
+  "version": "0.2.20",
+  "homepage": "https://github.com/tef-components/toolbars",
+  "authors": [
+    "the TEF components team"
+  ],
+  "description": "TEF components - toolbars",
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "bower.json",
+    ".gitignore",
+    "README.md",
+    "Gruntfile.js",
+    "package.json",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "utils": "tef-components/utils",
+    "icons": "tef-components/icons"
+  },
+  "_release": "0.2.20",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.2.20",
+    "commit": "0837414765f415edb6cbded9cc0e186e846014c0"
+  },
+  "_source": "git://github.com/tef-components/toolbars.git",
+  "_target": "*",
+  "_originalSource": "tef-components/toolbars"
+}
