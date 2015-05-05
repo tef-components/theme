@@ -5,7 +5,7 @@
   "authors": [
     "the TEF components team"
   ],
-  "description": "TEF components - theme_telefonica",
+  "description": "TEF components - theme",
   "main": "index.html",
   "license": "MIT",
   "ignore": [

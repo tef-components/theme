@@ -193,14 +193,20 @@ label {
 .tc-group ::content > * {
   border-radius: 0 !important;
 }
+.tc-group ::content > *::shadow .tc-button,
+.tc-group ::content > *::shadow .tc-input {
+  border-radius: 0 !important;
+}
 .tc-group ::content > *:first-child,
 .tc-group ::content > *:first-child > button,
-.tc-group ::content > *:first-child::shadow .tc-button {
+.tc-group ::content > *:first-child::shadow .tc-button,
+.tc-group ::content > *:first-child::shadow .tc-input {
   border-radius: 4px 0 0 4px !important;
 }
 .tc-group ::content > *:last-child,
 .tc-group ::content > *:last-child > button,
-.tc-group ::content > *:last-child::shadow .tc-button {
+.tc-group ::content > *:last-child::shadow .tc-button,
+.tc-group ::content > *:last-child::shadow .tc-input {
   border-radius: 0 4px 4px 0 !important;
 }
 .tc-group ::content > *:first-child:last-child {
