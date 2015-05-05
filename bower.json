@@ -1,0 +1,39 @@
+{
+  "name": "theme_telefonica",
+  "version": "0.2.38",
+  "homepage": "https://github.com/tc-components/theme_telefonica",
+  "authors": [
+    "the TEF components team"
+  ],
+  "description": "TEF components - theme_telefonica",
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "bower.json",
+    ".gitignore",
+    "README.md",
+    "Gruntfile.js",
+    "package.json",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "icons": "tc-components/icons",
+    "buttons": "tc-components/buttons",
+    "button-groups": "tc-components/button-groups",
+    "inputs": "tc-components/inputs",
+    "dropdowns": "tc-components/dropdowns",
+    "checkboxes": "tc-components/checkboxes",
+    "radios": "tc-components/radios",
+    "modals": "tc-components/modals",
+    "headers": "tc-components/headers",
+    "utils": "tc-components/utils",
+    "grid": "tc-components/grid",
+    "sidebars": "tc-components/sidebars",
+    "tabs": "tc-components/tabs",
+    "toolbars": "tc-components/toolbars",
+    "tables": "tc-components/tables",
+    "tooltips": "tc-components/tooltips",
+    "lists": "tc-components/lists"
+  }
+}

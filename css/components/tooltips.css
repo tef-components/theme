@@ -1,0 +1,231 @@
+.tc-tooltip {
+  position: relative;
+  display: inline-block;
+}
+.tc-tooltip[tooltip]:before,
+.tc-tooltip .tc-tooltip-content {
+  display: none;
+  position: absolute;
+  content: attr(tooltip);
+  background-color: #31323b;
+  color: white;
+  font-size: 12px;
+  line-height: 14px;
+  padding: 15px 23px;
+  border-radius: 4px;
+  max-width: 300px;
+  text-align: left;
+  z-index: 50;
+  white-space: pre;
+  word-break: break-word;
+}
+.tc-tooltip .tc-tooltip-content {
+  content: "";
+  padding: 0 23px;
+}
+.tc-tooltip .tc-tooltip-content > * {
+  margin: -10px 0;
+}
+.tc-tooltip:after {
+  display: none;
+  position: absolute;
+  content: "";
+  border: 8px solid transparent;
+  z-index: 50;
+}
+.tc-tooltip.right[tooltip]:before,
+.tc-tooltip.right .tc-tooltip-content {
+  top: 50%;
+  left: 100%;
+  margin: -16px 0 0 8px;
+}
+.tc-tooltip.right[tooltip].reverse:before,
+.tc-tooltip.right .reverse .tc-tooltip-content {
+  top: auto;
+  bottom: 50%;
+  margin: 0 0 -16px 8px;
+}
+.tc-tooltip.right:after {
+  border-right: 8px solid #31323b;
+  top: 50%;
+  left: 100%;
+  margin: -8px 0 0 -8px;
+}
+.tc-tooltip.right.start[tooltip]:before,
+.tc-tooltip.right.start .tc-tooltip-content {
+  top: 16px;
+}
+.tc-tooltip.right.start[tooltip].reverse:before,
+.tc-tooltip.right.start .reverse .tc-tooltip-content {
+  top: auto;
+  bottom: 100%;
+  margin: 0 0 -32px 8px;
+}
+.tc-tooltip.right.start:after {
+  top: 16px;
+}
+.tc-tooltip.right.end[tooltip]:before,
+.tc-tooltip.right.end .tc-tooltip-content {
+  top: 100%;
+  margin: -32px 0 0 8px;
+}
+.tc-tooltip.right.end[tooltip].reverse:before,
+.tc-tooltip.right.end .reverse .tc-tooltip-content {
+  top: auto;
+  bottom: 0;
+  margin: 0 0 0 8px;
+}
+.tc-tooltip.right.end:after {
+  top: auto;
+  bottom: 8px;
+}
+.tc-tooltip.left[tooltip]:before,
+.tc-tooltip.left .tc-tooltip-content {
+  top: 50%;
+  right: 100%;
+  margin: -16px 8px 0 0;
+}
+.tc-tooltip.left[tooltip].reverse:before,
+.tc-tooltip.left .reverse .tc-tooltip-content {
+  top: auto;
+  bottom: 50%;
+  margin: 0 8px -16px 0;
+}
+.tc-tooltip.left:after {
+  border-left: 8px solid #31323b;
+  top: 50%;
+  right: 100%;
+  margin: -8px -8px 0 0;
+}
+.tc-tooltip.left.start[tooltip]:before,
+.tc-tooltip.left.start .tc-tooltip-content {
+  top: 16px;
+}
+.tc-tooltip.left.start[tooltip].reverse:before,
+.tc-tooltip.left.start .reverse .tc-tooltip-content {
+  top: auto;
+  bottom: 100%;
+  margin: 0 8px -32px 0;
+}
+.tc-tooltip.left.start:after {
+  top: 16px;
+}
+.tc-tooltip.left.end[tooltip]:before,
+.tc-tooltip.left.end .tc-tooltip-content {
+  top: 100%;
+  margin: -32px 8px 0 0;
+}
+.tc-tooltip.left.end[tooltip].reverse:before,
+.tc-tooltip.left.end .reverse .tc-tooltip-content {
+  top: auto;
+  bottom: 0;
+}
+.tc-tooltip.left.end:after {
+  top: auto;
+  bottom: 8px;
+}
+.tc-tooltip.top[tooltip]:before,
+.tc-tooltip.top .tc-tooltip-content {
+  bottom: 100%;
+  left: 50%;
+  margin: 0 0 8px -16px;
+}
+.tc-tooltip.top[tooltip].reverse:before,
+.tc-tooltip.top .reverse .tc-tooltip-content {
+  right: 50%;
+  left: auto;
+  margin: 0 -16px 8px 0;
+}
+.tc-tooltip.top:after {
+  border-top: 8px solid #31323b;
+  left: 50%;
+  bottom: 100%;
+  margin: 0 0 -8px -8px;
+}
+.tc-tooltip.top.start[tooltip]:before,
+.tc-tooltip.top.start .tc-tooltip-content {
+  left: 16px;
+}
+.tc-tooltip.top.start[tooltip].reverse:before,
+.tc-tooltip.top.start .reverse .tc-tooltip-content {
+  left: auto;
+  right: 100%;
+  margin: 0 -32px 8px 0;
+}
+.tc-tooltip.top.start:after {
+  left: 16px;
+}
+.tc-tooltip.top.end[tooltip]:before,
+.tc-tooltip.top.end .tc-tooltip-content {
+  left: 100%;
+  margin: 0 0 8px -32px;
+}
+.tc-tooltip.top.end[tooltip].reverse:before,
+.tc-tooltip.top.end .reverse .tc-tooltip-content {
+  left: auto;
+  right: 0;
+}
+.tc-tooltip.top.end:after {
+  left: auto;
+  right: 8px;
+}
+.tc-tooltip.bottom[tooltip]:before,
+.tc-tooltip.bottom .tc-tooltip-content {
+  top: 100%;
+  left: 50%;
+  margin: 8px 0 0 -16px;
+}
+.tc-tooltip.bottom[tooltip].reverse:before,
+.tc-tooltip.bottom .reverse .tc-tooltip-content {
+  right: 50%;
+  left: auto;
+  margin: 8px -16px 0 0;
+}
+.tc-tooltip.bottom:after {
+  border-bottom: 8px solid #31323b;
+  left: 50%;
+  top: 100%;
+  margin: -8px 0 0 -8px;
+}
+.tc-tooltip.bottom.start[tooltip]:before,
+.tc-tooltip.bottom.start .tc-tooltip-content {
+  left: 16px;
+}
+.tc-tooltip.bottom.start[tooltip].reverse:before,
+.tc-tooltip.bottom.start .reverse .tc-tooltip-content {
+  left: auto;
+  right: 100%;
+  margin: 8px -32px 0 0;
+}
+.tc-tooltip.bottom.start:after {
+  left: 16px;
+}
+.tc-tooltip.bottom.end[tooltip]:before,
+.tc-tooltip.bottom.end .tc-tooltip-content {
+  left: 100%;
+  margin: 8px 0 0 -32px;
+}
+.tc-tooltip.bottom.end[tooltip].reverse:before,
+.tc-tooltip.bottom.end .reverse .tc-tooltip-content {
+  left: auto;
+  right: 0;
+}
+.tc-tooltip.bottom.end:after {
+  left: auto;
+  right: 8px;
+}
+.tc-tooltip:hover[tooltip]:before,
+.tc-tooltip:focus[tooltip]:before,
+.tc-tooltip.active[tooltip]:before,
+.tc-tooltip:hover:after,
+.tc-tooltip:focus:after,
+.tc-tooltip.active:after,
+.tc-tooltip:hover .tc-tooltip-content,
+.tc-tooltip:focus .tc-tooltip-content,
+.tc-tooltip.active .tc-tooltip-content {
+  display: block;
+}
+.tc-tooltip pre {
+  margin: 0;
+  padding: 0;
+}

@@ -1,0 +1,92 @@
+//
+@import "../less/variables.less";
+//
+
+// Keep 4 spaces before @ in order to do a correct
+// valiable replacement for Web Components
+
+// Theme colors
+.CoreStyle-color { fake-property: #007486; }
+.CoreStyle-text { fake-property: white; }
+.CoreStyle-border { fake-property: @color; }
+.CoreStyle-colorHover { fake-property: darken(@color,5%); }
+.CoreStyle-textHover { fake-property: @text; }
+.CoreStyle-borderHover { fake-property: @colorHover; }
+.CoreStyle-colorActive { fake-property: darken(@color,10%); }
+.CoreStyle-textActive { fake-property: @text; }
+.CoreStyle-borderActive { fake-property: @colorActive; }
+
+.CoreStyle-positive { fake-property: #00c607; }
+.CoreStyle-positiveText { fake-property: @text; }
+.CoreStyle-positiveBorder { fake-property: @positive; }
+.CoreStyle-positiveHover { fake-property: darken(@positive,5%); }
+.CoreStyle-positiveTextHover { fake-property: @positiveText; }
+.CoreStyle-positiveBorderHover { fake-property: @positiveHover; }
+.CoreStyle-positiveActive { fake-property: darken(@positive,10%); }
+.CoreStyle-positiveTextActive { fake-property: @positiveText; }
+.CoreStyle-positiveBorderActive { fake-property: @positiveActive; }
+
+.CoreStyle-negative { fake-property: #ca3430; }
+.CoreStyle-negativeText { fake-property: @text; }
+.CoreStyle-negativeBorder { fake-property: @negative; }
+.CoreStyle-negativeHover { fake-property: darken(@negative,5%); }
+.CoreStyle-negativeTextHover { fake-property: @negativeText; }
+.CoreStyle-negativeBorderHover { fake-property: @negativeHover; }
+.CoreStyle-negativeActive { fake-property: darken(@negative,10%); }
+.CoreStyle-negativeTextActive { fake-property: @negativeText; }
+.CoreStyle-negativeBorderActive { fake-property: @negativeActive; }
+
+.CoreStyle-subdued { fake-property: #84959e; }
+.CoreStyle-subduedText { fake-property: @text; }
+.CoreStyle-subduedBorder { fake-property: @subdued; }
+.CoreStyle-subduedHover { fake-property: darken(@subdued,5%); }
+.CoreStyle-subduedTextHover { fake-property: @subduedText; }
+.CoreStyle-subduedBorderHover { fake-property: @subduedHover; }
+.CoreStyle-subduedActive { fake-property: darken(@subdued,10%); }
+.CoreStyle-subduedTextActive { fake-property: @subduedText; }
+.CoreStyle-subduedBorderActive { fake-property: @subduedActive; }
+
+.CoreStyle-significant { fake-property: #00c6d7; }
+.CoreStyle-significantText { fake-property: @text; }
+.CoreStyle-significantBorder { fake-property: @significant; }
+.CoreStyle-significantHover { fake-property: darken(@significant,5%); }
+.CoreStyle-significantTextHover { fake-property: @significantText; }
+.CoreStyle-significantBorderHover { fake-property: @significantHover; }
+.CoreStyle-significantActive { fake-property: darken(@significant,10%); }
+.CoreStyle-significantTextActive { fake-property: @significantText; }
+.CoreStyle-significantBorderActive { fake-property: @significantActive; }
+
+.CoreStyle-warning { fake-property: #f0ad4e; }
+
+// Common colors
+.CoreStyle-grey1 { fake-property: #f2f2f2; }
+.CoreStyle-grey2 { fake-property: #cfcece; }
+.CoreStyle-grey3 { fake-property: #b3b5b7; }
+.CoreStyle-grey4 { fake-property: #aeadad; }
+.CoreStyle-grey5 { fake-property: #686868; }
+.CoreStyle-grey6 { fake-property: #31313d; }
+
+// Header
+.CoreStyle-headerNav { fake-property: #003245; }
+.CoreStyle-headerText { fake-property: white; }
+.CoreStyle-headerIcon { fake-property: #b6c6cb; }
+.CoreStyle-headerReverse { fake-property: @headerNav; }
+
+// Other properties
+.CoreStyle-shadow { fake-property: 0 2px 6px rgba(0,0,0,0.3); }
+.CoreStyle-shadowReverse { fake-property: 0 -2px 6px rgba(0,0,0,0.3); }
+.CoreStyle-radius { fake-property: 4px; }
+
+// Breakpoints
+.CoreStyle-widthXS { fake-property: 480px; }
+.CoreStyle-widthSM { fake-property: 768px; }
+.CoreStyle-widthMD { fake-property: 992px; }
+.CoreStyle-widthLG { fake-property: 1167px; }
+
+// Min and Max widths
+.CoreStyle-widthMin { fake-property: 320px; }
+.CoreStyle-widthMax { fake-property: @widthLG; }
+
+// Grid variables
+.CoreStyle-gutter { fake-property: 16px; }
+.CoreStyle-columnGutter { fake-property: @gutter / 2; }

@@ -1,0 +1,54 @@
+.tc-table {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 20px;
+  border-collapse: collapse;
+  background-color: #f6f6f6;
+  color: #333;
+  font-size: 14px;
+  line-height: 16px;
+  box-sizing: border-box;
+  text-align: left;
+}
+.tc-table thead {
+  background-color: #fffdeb;
+  border: 1px solid #ccc;
+  border-left: none;
+}
+.tc-table thead th {
+  border-left: 1px solid #ccc;
+}
+.tc-table thead [icon] {
+  color: #00c6d7;
+  padding-left: 10px;
+}
+.tc-table th {
+  padding: 7px 10px;
+  font-weight: normal;
+}
+.tc-table tbody tr {
+  border: 1px solid #ccc;
+}
+.tc-table tbody tr:hover,
+.tc-table tbody tr:focus,
+.tc-table tbody tr:active,
+.tc-table tbody tr.active {
+  background-color: #fef9e5;
+  border: 1px solid #e7d28a;
+}
+.tc-table tbody tr:hover td,
+.tc-table tbody tr:focus td,
+.tc-table tbody tr:active td,
+.tc-table tbody tr.active td,
+.tc-table tbody tr:hover th,
+.tc-table tbody tr:focus th,
+.tc-table tbody tr:active th,
+.tc-table tbody tr.active th {
+  border-top: 1px solid #e7d28a;
+}
+.tc-table td {
+  padding: 7px 10px;
+}
+.tc-table a {
+  color: #333;
+}
