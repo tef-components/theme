@@ -48,73 +48,6 @@ module.exports = function(grunt) {
       }
     },
 
-    // reformating  variables.less to create a core-styles compliant file
-    // to be used in Web components
-    replace: {
-      preless: {
-        options: {
-          patterns: [
-            { match: '    @', replacement: '.CoreStyle-' },
-            { match: ': ', replacement: ' { fake-property: ' },
-            { match: ';', replacement: '; }' }
-          ],
-          usePrefix: false
-        },
-        files: [
-          {
-            expand: true, flatten: true,
-            src: ['less/variables.less'], dest: 'templates/'
-          }
-        ]
-      },
-
-      import: {
-        options: {
-          patterns: [
-            {
-              match: '// Variables',
-              replacement: '@import "../less/variables.less";'
-            }
-          ],
-          usePrefix: false
-        },
-        files: [
-          {
-            expand: true, flatten: true,
-            src: ['templates/variables.less'], dest: 'templates/'
-          }
-        ]
-      },
-
-      final: {
-        options: {
-          patterns: [
-            { match: '.CoreStyle-', replacement: 'CoreStyle.g.' },
-            { match: '{', replacement: '=' },
-            { match: 'fake-property: ', replacement: '"' },
-            { match: ';', replacement: '";' },
-            { match: '}', replacement: '' },
-          ],
-          usePrefix: false
-        },
-        files: [
-          {
-            expand: true, flatten: true,
-            src: ['templates/variables.css'], dest: 'templates/'
-          }
-        ]
-      }
-    },
-
-    // create theme*.js to to be used in Web Components
-    includes: {
-      files: {
-        cwd: 'templates/',
-        src: '**/*.js',
-        dest: ''
-      }
-    },
-
     bump: {
       // upgrade release and push to master
       options : {
@@ -166,7 +99,7 @@ module.exports = function(grunt) {
     watch: {
       styles: {
         files: ['../**/less/*.less'],
-        tasks: ['less', 'concat'],
+        tasks: ['less', 'concat','cssmin'],
         options: {
           nospawn: true,
           livereload: true
@@ -178,30 +111,16 @@ module.exports = function(grunt) {
   grunt.registerTask('default', [
     'less',
     'concat',
-    'watch'
-  ]);
-
-  grunt.registerTask('webcomponents', [
-    'replace:preless',
-    'replace:import',
-    'less',
-    'replace:final',
-    'autoprefixer',
-    'concat',
     'cssmin',
-    'includes'
+    'watch'
   ]);
 
   grunt.registerTask('release', [
     'copy',
-    'replace:preless',
-    'replace:import',
     'less',
-    'replace:final',
     'autoprefixer',
     'concat',
     'cssmin',
-    'includes',
     'exec:add',
     'prompt',
     'exec:message',
