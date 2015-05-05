@@ -41,6 +41,11 @@ module.exports = function(grunt) {
     },
 
     exec: {
+      // update components
+      update: {
+        command: 'bower update'
+      },
+      
       // add new files before commiting
       add: {
         command: 'git add -A'
@@ -92,6 +97,7 @@ module.exports = function(grunt) {
   });
 
   grunt.registerTask('default', [
+    'exec:update',
     'less',
     'autoprefixer',
     'cssmin',
@@ -99,6 +105,7 @@ module.exports = function(grunt) {
   ]);
 
   grunt.registerTask('release', [
+    'exec:update',
     'less',
     'autoprefixer',
     'cssmin',
