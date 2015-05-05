@@ -5,21 +5,7 @@ module.exports = function(grunt) {
     less: {
       default: {
         files: {
-          'css/components.css': 'less/theme.less',
-          'templates/variables.css': 'templates/variables.less',
-          'css/components/buttons.css': 'less/buttons.less',
-          'css/components/dropdowns.css': 'less/dropdowns.less',
-          'css/components/inputs.css': 'less/inputs.less',
-          'css/components/radios.css': 'less/radios.less',
-          'css/components/checkboxes.css': 'less/checkboxes.less',
-          'css/components/modals.css': 'less/modals.less',
-          'css/components/headers.css': 'less/headers.less',
-          'css/components/sidebars.css': 'less/sidebars.less',
-          'css/components/tabs.css': 'less/tabs.less',
-          'css/components/toolbars.css': 'less/toolbars.less',
-          'css/components/tables.css': 'less/tables.less',
-          'css/components/tooltips.css': 'less/tooltips.less',
-          'css/components/lists.css': 'less/lists.less'
+          'css/tc-components.css': 'less/theme.less'
         }
       }
     },
@@ -37,9 +23,9 @@ module.exports = function(grunt) {
       default: {
        src: [
           '../icons/fonts/icons.css',
-          'css/components.css',
+          'css/tc-components.css',
         ],
-        dest: 'css/components.css'
+        dest: 'css/tc-components.css'
       }
     },
     
@@ -57,20 +43,7 @@ module.exports = function(grunt) {
       },
       target: {
         files: {
-          'css/components.min.css': 'css/components.css',
-          'css/components/buttons.min.css': 'css/components/buttons.css',
-          'css/components/dropdowns.min.css': 'css/components/dropdowns.css',
-          'css/components/inputs.min.css': 'css/components/inputs.css',
-          'css/components/radios.min.css': 'css/components/radios.css',
-          'css/components/checkboxes.min.css': 'css/components/checkboxes.css',
-          'css/components/modals.min.css': 'css/components/modals.css',
-          'css/components/headers.min.css': 'css/components/headers.css',
-          'css/components/sidebars.min.css': 'css/components/sidebars.css',
-          'css/components/tabs.min.css': 'css/components/tabs.css',
-          'css/components/toolbars.min.css': 'css/components/toolbars.css',
-          'css/components/tables.min.css': 'css/components/tables.css',
-          'css/components/tooltips.min.css': 'css/components/tooltips.css',
-          'css/components/lists.min.css': 'css/components/lists.css'
+          'css/tc-components.min.css': 'css/tc-components.css',
         }
       }
     },
