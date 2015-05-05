@@ -11,9 +11,6 @@
   "ignore": [
     "bower.json",
     ".gitignore",
-    "README.md",
-    "Gruntfile.js",
-    "package.json",
     "node_modules",
     "tef-components"
   ],
