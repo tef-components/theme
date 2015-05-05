@@ -1,205 +1,205 @@
 // Function that sets the CoreStyle variables
 var setVars = function(){
   CoreStyle.g.color =
-    "#007486""";
+    "#007486"""";
 
   CoreStyle.g.text =
-    "white""";
+    "white"""";
 
   CoreStyle.g.border =
-    "#007486""";
+    "#007486"""";
 
   CoreStyle.g.colorHover =
-    "#005e6d""";
+    "#005e6d"""";
 
   CoreStyle.g.textHover =
-    "white""";
+    "white"""";
 
   CoreStyle.g.borderHover =
-    "#005e6d""";
+    "#005e6d"""";
 
   CoreStyle.g.colorActive =
-    "#004853""";
+    "#004853"""";
 
   CoreStyle.g.textActive =
-    "white""";
+    "white"""";
 
   CoreStyle.g.borderActive =
-    "#004853""";
+    "#004853"""";
 
   CoreStyle.g.positive =
-    "#00c607""";
+    "#00c607"""";
 
   CoreStyle.g.positiveText =
-    "white""";
+    "white"""";
 
   CoreStyle.g.positiveBorder =
-    "#00c607""";
+    "#00c607"""";
 
   CoreStyle.g.positiveHover =
-    "#00ad06""";
+    "#00ad06"""";
 
   CoreStyle.g.positiveTextHover =
-    "white""";
+    "white"""";
 
   CoreStyle.g.positiveBorderHover =
-    "#00ad06""";
+    "#00ad06"""";
 
   CoreStyle.g.positiveActive =
-    "#009305""";
+    "#009305"""";
 
   CoreStyle.g.positiveTextActive =
-    "white""";
+    "white"""";
 
   CoreStyle.g.positiveBorderActive =
-    "#009305""";
+    "#009305"""";
 
   CoreStyle.g.negative =
-    "#ca3430""";
+    "#ca3430"""";
 
   CoreStyle.g.negativeText =
-    "white""";
+    "white"""";
 
   CoreStyle.g.negativeBorder =
-    "#ca3430""";
+    "#ca3430"""";
 
   CoreStyle.g.negativeHover =
-    "#b52f2b""";
+    "#b52f2b"""";
 
   CoreStyle.g.negativeTextHover =
-    "white""";
+    "white"""";
 
   CoreStyle.g.negativeBorderHover =
-    "#b52f2b""";
+    "#b52f2b"""";
 
   CoreStyle.g.negativeActive =
-    "#a12926""";
+    "#a12926"""";
 
   CoreStyle.g.negativeTextActive =
-    "white""";
+    "white"""";
 
   CoreStyle.g.negativeBorderActive =
-    "#a12926""";
+    "#a12926"""";
 
   CoreStyle.g.subdued =
-    "#84959e""";
+    "#84959e"""";
 
   CoreStyle.g.subduedText =
-    "white""";
+    "white"""";
 
   CoreStyle.g.subduedBorder =
-    "#84959e""";
+    "#84959e"""";
 
   CoreStyle.g.subduedHover =
-    "#768993""";
+    "#768993"""";
 
   CoreStyle.g.subduedTextHover =
-    "white""";
+    "white"""";
 
   CoreStyle.g.subduedBorderHover =
-    "#768993""";
+    "#768993"""";
 
   CoreStyle.g.subduedActive =
-    "#697c86""";
+    "#697c86"""";
 
   CoreStyle.g.subduedTextActive =
-    "white""";
+    "white"""";
 
   CoreStyle.g.subduedBorderActive =
-    "#697c86""";
+    "#697c86"""";
 
   CoreStyle.g.significant =
-    "#00c6d7""";
+    "#00c6d7"""";
 
   CoreStyle.g.significantText =
-    "white""";
+    "white"""";
 
   CoreStyle.g.significantBorder =
-    "#00c6d7""";
+    "#00c6d7"""";
 
   CoreStyle.g.significantHover =
-    "#00afbe""";
+    "#00afbe"""";
 
   CoreStyle.g.significantTextHover =
-    "white""";
+    "white"""";
 
   CoreStyle.g.significantBorderHover =
-    "#00afbe""";
+    "#00afbe"""";
 
   CoreStyle.g.significantActive =
-    "#0097a4""";
+    "#0097a4"""";
 
   CoreStyle.g.significantTextActive =
-    "white""";
+    "white"""";
 
   CoreStyle.g.significantBorderActive =
-    "#0097a4""";
+    "#0097a4"""";
 
   CoreStyle.g.warning =
-    "#f0ad4e""";
+    "#f0ad4e"""";
 
   CoreStyle.g.grey1 =
-    "#f2f2f2""";
+    "#f2f2f2"""";
 
   CoreStyle.g.grey2 =
-    "#cfcece""";
+    "#cfcece"""";
 
   CoreStyle.g.grey3 =
-    "#b3b5b7""";
+    "#b3b5b7"""";
 
   CoreStyle.g.grey4 =
-    "#aeadad""";
+    "#aeadad"""";
 
   CoreStyle.g.grey5 =
-    "#686868""";
+    "#686868"""";
 
   CoreStyle.g.grey6 =
-    "#31313d""";
+    "#31313d"""";
 
   CoreStyle.g.headerNav =
-    "#003245""";
+    "#003245"""";
 
   CoreStyle.g.headerText =
-    "white""";
+    "white"""";
 
   CoreStyle.g.headerIcon =
-    "#b6c6cb""";
+    "#b6c6cb"""";
 
   CoreStyle.g.headerReverse =
-    "#003245""";
+    "#003245"""";
 
   CoreStyle.g.shadow =
-    "0 2px 6px rgba(0, 0, 0, 0.3)""";
+    "0 2px 6px rgba(0, 0, 0, 0.3)"""";
 
   CoreStyle.g.shadowReverse =
-    "0 -2px 6px rgba(0, 0, 0, 0.3)""";
+    "0 -2px 6px rgba(0, 0, 0, 0.3)"""";
 
   CoreStyle.g.radius =
-    "4px""";
+    "4px"""";
 
   CoreStyle.g.widthXS =
-    "480px""";
+    "480px"""";
 
   CoreStyle.g.widthSM =
-    "768px""";
+    "768px"""";
 
   CoreStyle.g.widthMD =
-    "992px""";
+    "992px"""";
 
   CoreStyle.g.widthLG =
-    "1167px""";
+    "1167px"""";
 
   CoreStyle.g.widthMin =
-    "320px""";
+    "320px"""";
 
   CoreStyle.g.widthMax =
-    "1167px""";
+    "1167px"""";
 
   CoreStyle.g.gutter =
-    "16px""";
+    "16px"""";
 
   CoreStyle.g.columnGutter =
-    "8px""";
+    "8px"""";
 
 
 }
