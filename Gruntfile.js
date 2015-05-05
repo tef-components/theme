@@ -5,10 +5,9 @@ module.exports = function(grunt) {
     less: {
       default: {
         files: {
-          'css/components.telefonica.css': 'less/theme.less',
+          'css/components.css': 'less/theme.less',
           'templates/variables.css': 'templates/variables.less',
           'css/components/buttons.css': 'less/buttons.less',
-          'css/web_components/tef_button.css': 'less/tef_button.less',
           'css/components/dropdowns.css': 'less/dropdowns.less',
           'css/components/inputs.css': 'less/inputs.less',
           'css/components/radios.css': 'less/radios.less',
@@ -38,9 +37,9 @@ module.exports = function(grunt) {
       default: {
        src: [
           '../icons/fonts/icons.css',
-          'css/components.telefonica.css',
+          'css/components.css',
         ],
-        dest: 'css/components.telefonica.css'
+        dest: 'css/components.css'
       }
     },
     
@@ -58,9 +57,8 @@ module.exports = function(grunt) {
       },
       target: {
         files: {
-          'css/components.telefonica.min.css': 'css/components.telefonica.css',
+          'css/components.min.css': 'css/components.css',
           'css/components/buttons.min.css': 'css/components/buttons.css',
-          'css/web_components/tef_button.min.css': 'css/web_components/tef_button.css',
           'css/components/dropdowns.min.css': 'css/components/dropdowns.css',
           'css/components/inputs.min.css': 'css/components/inputs.css',
           'css/components/radios.min.css': 'css/components/radios.css',
