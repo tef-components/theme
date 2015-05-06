@@ -1,6 +1,6 @@
 {
   "name": "tooltips",
-  "version": "0.2.20",
+  "version": "0.2.21",
   "homepage": "https://github.com/tef-components/tooltips",
   "authors": [
     "the TEF components team"
@@ -16,9 +16,5 @@
     "package.json",
     "node_modules",
     "bower_components"
-  ],
-  "dependencies": {
-    "utils": "tef-components/utils",
-    "icons": "tef-components/icons"
-  }
+  ]
 }

@@ -27,6 +27,6 @@
     "commit": "8f9ec525ecfc72f10d1c3e53a657174e004f12fa"
   },
   "_source": "git://github.com/tef-components/icons.git",
-  "_target": "*",
+  "_target": "0.1.25",
   "_originalSource": "tef-components/icons"
 }

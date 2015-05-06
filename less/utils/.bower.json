@@ -1,6 +1,6 @@
 {
   "name": "utils",
-  "version": "0.2.21",
+  "version": "0.2.22",
   "homepage": "https://github.com/tef-components/utils",
   "authors": [
     "the TEF components team"
@@ -17,16 +17,13 @@
     "node_modules",
     "bower_components"
   ],
-  "dependencies": {
-    "buttons": "tef-components/buttons"
-  },
-  "_release": "0.2.21",
+  "_release": "0.2.22",
   "_resolution": {
     "type": "version",
-    "tag": "v0.2.21",
-    "commit": "a625534849ba43bdd9642ec0ced0e28df050ab1b"
+    "tag": "v0.2.22",
+    "commit": "9c7851dcb8df43f1464f8b1211c6b34f2242df97"
   },
   "_source": "git://github.com/tef-components/utils.git",
-  "_target": "*",
+  "_target": "0.2.22",
   "_originalSource": "tef-components/utils"
 }

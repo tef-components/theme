@@ -1,6 +1,6 @@
 {
   "name": "modals",
-  "version": "0.2.22",
+  "version": "0.2.23",
   "homepage": "https://github.com/tef-components/modals",
   "authors": [
     "the TEF components team"
@@ -17,18 +17,13 @@
     "node_modules",
     "bower_components"
   ],
-  "dependencies": {
-    "buttons": "tef-components/buttons",
-    "icons": "tef-components/icons",
-    "utils": "tef-components/utils"
-  },
-  "_release": "0.2.22",
+  "_release": "0.2.23",
   "_resolution": {
     "type": "version",
-    "tag": "v0.2.22",
-    "commit": "8c51a1214ecc098f6a0a169415bc8b10087b3414"
+    "tag": "v0.2.23",
+    "commit": "8798b0d83d2bc0584f7538b40a7eccb41368718e"
   },
   "_source": "git://github.com/tef-components/modals.git",
-  "_target": "*",
+  "_target": "0.2.23",
   "_originalSource": "tef-components/modals"
 }

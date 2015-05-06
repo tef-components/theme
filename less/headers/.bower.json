@@ -24,6 +24,6 @@
     "commit": "b68753e6e2f9a4a2545276034d01309dd86a3cf5"
   },
   "_source": "git://github.com/tef-components/headers.git",
-  "_target": "*",
+  "_target": "0.2.18",
   "_originalSource": "tef-components/headers"
 }

@@ -1,6 +1,6 @@
 {
   "name": "sidebars",
-  "version": "0.2.19",
+  "version": "0.2.20",
   "homepage": "https://github.com/tef-components/sidebars",
   "authors": [
     "the TEF components team"
@@ -17,19 +17,13 @@
     "node_modules",
     "bower_components"
   ],
-  "dependencies": {
-    "utils": "tef-components/utils",
-    "icons": "tef-components/icons",
-    "inputs": "tef-components/inputs",
-    "toolbars": "tef-components/toolbars"
-  },
-  "_release": "0.2.19",
+  "_release": "0.2.20",
   "_resolution": {
     "type": "version",
-    "tag": "v0.2.19",
-    "commit": "d52a0754d6cd45bec23d57b2db125505d6f9f275"
+    "tag": "v0.2.20",
+    "commit": "801d68eaee9cc8a2cc2e5b138c14c4bf16b701cb"
   },
   "_source": "git://github.com/tef-components/sidebars.git",
-  "_target": "*",
+  "_target": "0.2.20",
   "_originalSource": "tef-components/sidebars"
 }

@@ -24,6 +24,6 @@
     "commit": "1c5ae4512af59018d46ff299ef4cd334a2dd787e"
   },
   "_source": "git://github.com/tef-components/checkboxes.git",
-  "_target": "*",
+  "_target": "0.2.21",
   "_originalSource": "tef-components/checkboxes"
 }

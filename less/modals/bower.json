@@ -1,6 +1,6 @@
 {
   "name": "modals",
-  "version": "0.2.22",
+  "version": "0.2.23",
   "homepage": "https://github.com/tef-components/modals",
   "authors": [
     "the TEF components team"
@@ -16,10 +16,5 @@
     "package.json",
     "node_modules",
     "bower_components"
-  ],
-  "dependencies": {
-    "buttons": "tef-components/buttons",
-    "icons": "tef-components/icons",
-    "utils": "tef-components/utils"
-  }
+  ]
 }

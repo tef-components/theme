@@ -1,6 +1,6 @@
 {
   "name": "sidebars",
-  "version": "0.2.21",
+  "version": "0.2.22",
   "homepage": "https://github.com/tef-components/sidebars",
   "authors": [
     "the TEF components team"
@@ -17,17 +17,13 @@
     "node_modules",
     "bower_components"
   ],
-  "dependencies": {
-    "utils": "tef-components/utils",
-    "icons": "tef-components/icons"
-  },
-  "_release": "0.2.21",
+  "_release": "0.2.22",
   "_resolution": {
     "type": "version",
-    "tag": "v0.2.21",
-    "commit": "7c1011ec44476fbedfc11904f27ddd6053156374"
+    "tag": "v0.2.22",
+    "commit": "343c93f5c738ae90c662598524ec8e87f0387b1e"
   },
   "_source": "git://github.com/tef-components/tabs.git",
-  "_target": "*",
+  "_target": "0.2.22",
   "_originalSource": "tef-components/tabs"
 }

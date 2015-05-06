@@ -1,6 +1,6 @@
 {
   "name": "tooltips",
-  "version": "0.2.20",
+  "version": "0.2.21",
   "homepage": "https://github.com/tef-components/tooltips",
   "authors": [
     "the TEF components team"
@@ -17,17 +17,13 @@
     "node_modules",
     "bower_components"
   ],
-  "dependencies": {
-    "utils": "tef-components/utils",
-    "icons": "tef-components/icons"
-  },
-  "_release": "0.2.20",
+  "_release": "0.2.21",
   "_resolution": {
     "type": "version",
-    "tag": "v0.2.20",
-    "commit": "204b34d266cbfb2b9c49d82c48d2a84f75a16ec7"
+    "tag": "v0.2.21",
+    "commit": "7a2ae4a79b39f7c38b2b314ed201648d6d95066b"
   },
   "_source": "git://github.com/tef-components/tooltips.git",
-  "_target": "*",
+  "_target": "0.2.21",
   "_originalSource": "tef-components/tooltips"
 }

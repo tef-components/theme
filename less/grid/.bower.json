@@ -24,6 +24,6 @@
     "commit": "87d0bc7a84ba3ab748ab4cf22ae6454aaab0cd05"
   },
   "_source": "git://github.com/tef-components/grid.git",
-  "_target": "*",
+  "_target": "0.1.13",
   "_originalSource": "tef-components/grid"
 }

@@ -24,6 +24,6 @@
     "commit": "5c6150d345b7ff90ca10dcc0f79f2b33613c9bfb"
   },
   "_source": "git://github.com/tef-components/buttons.git",
-  "_target": "*",
+  "_target": "0.2.22",
   "_originalSource": "tef-components/buttons"
 }

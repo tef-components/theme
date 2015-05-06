@@ -24,6 +24,6 @@
     "commit": "05e11fe7ce6b5a74fb582fc45715b13cfcee7d49"
   },
   "_source": "git://github.com/tef-components/radios.git",
-  "_target": "*",
+  "_target": "0.2.19",
   "_originalSource": "tef-components/radios"
 }
