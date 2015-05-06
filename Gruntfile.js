@@ -108,9 +108,9 @@ module.exports = function(grunt) {
   ]);
 
   grunt.registerTask('release', [
-//    'less',
-//    'autoprefixer',
-//    'cssmin',
+    'less',
+    'autoprefixer',
+    'cssmin',
     'exec:add',
     'prompt',
     'exec:message',
