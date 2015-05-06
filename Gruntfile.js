@@ -97,18 +97,20 @@ module.exports = function(grunt) {
   });
 
   grunt.registerTask('default', [
-    'exec:update',
     'less',
     'autoprefixer',
     'cssmin',
     'watch'
   ]);
 
+  grunt.registerTask('upgrade', [
+    'exec:update'
+  ]);
+
   grunt.registerTask('release', [
-    'exec:update',
-    'less',
-    'autoprefixer',
-    'cssmin',
+//    'less',
+//    'autoprefixer',
+//    'cssmin',
     'exec:add',
     'prompt',
     'exec:message',
