@@ -41,11 +41,6 @@ module.exports = function(grunt) {
     },
 
     exec: {
-      // update components
-      update: {
-        command: 'bower update'
-      },
-      
       // add new files before commiting
       add: {
         command: 'git add -A'
@@ -86,7 +81,7 @@ module.exports = function(grunt) {
 
     watch: {
       styles: {
-        files: ['less/**/*.less'],
+        files: ['../**/*.less'],
         tasks: ['less','autoprefixer','cssmin'],
         options: {
           nospawn: true,
@@ -101,10 +96,6 @@ module.exports = function(grunt) {
     'autoprefixer',
     'cssmin',
     'watch'
-  ]);
-
-  grunt.registerTask('upgrade', [
-    'exec:update'
   ]);
 
   grunt.registerTask('release', [

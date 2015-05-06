@@ -24,7 +24,7 @@
     "modals": "tef-components/modals#0.2.23",
     "headers": "tef-components/headers#0.2.18",
     "utils": "tef-components/utils#0.2.22",
-    "grid": "tef-components/grid#0.1.13",
+    "grid": "tef-components/grid#0.1.14",
     "sidebars": "tef-components/sidebars#0.2.20",
     "tabs": "tef-components/tabs#0.2.22",
     "toolbars": "tef-components/toolbars#0.2.21",
