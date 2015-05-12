@@ -18,7 +18,7 @@
     "icons": "tef-components/icons#0.1.25",
     "buttons": "tef-components/buttons#0.2.22",
     "inputs": "tef-components/inputs#0.1.21",
-    "dropdowns": "tef-components/dropdowns#0.2.14",
+    "dropdowns": "tef-components/dropdowns#0.2.15",
     "checkboxes": "tef-components/checkboxes#0.2.21",
     "radios": "tef-components/radios#0.2.19",
     "modals": "tef-components/modals#0.2.23",
