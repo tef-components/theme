@@ -5,7 +5,7 @@ module.exports = function(grunt) {
     less: {
       default: {
         files: {
-          'css/tc-components.css': 'less/theme.less'
+          'css/components.css': 'less/theme.less'
         }
       }
     },
@@ -26,7 +26,7 @@ module.exports = function(grunt) {
       },
       target: {
         files: {
-          'css/tc-components.min.css': 'css/tc-components.css',
+          'css/components.min.css': 'css/components.css',
         }
       }
     },
