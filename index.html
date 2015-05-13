@@ -13,38 +13,38 @@
     <div class="tc-wrapper">
       <header class="tc-header">
         <nav>
-          <button id="show-menu-btn" onclick="showMenu()" class="tc-menu" icon="menu"></button>
-          <button id="hide-menu-btn" onclick="hideMenu()" class="tc-close" icon="close"></button>
+          <button id="show-menu-btn" onclick="showMenu()" class="tc-menu" data-icon="menu"></button>
+          <button id="hide-menu-btn" onclick="hideMenu()" class="tc-close" data-icon="close"></button>
           <ul id="menu" onclick="hideMenu()">
-            <li><span>Hello George!</span><i icon="user"></i></li>
-            <li><a href=""><span>Help</span><i icon="help_circle"></i></a></li>
-            <li><a href=""><span>Exit</span><i icon="close_circle"></i></a></li>
+            <li><span>Hello George!</span><i data-icon="user"></i></li>
+            <li><a href=""><span>Help</span><i data-icon="help_circle"></i></a></li>
+            <li><a href=""><span>Exit</span><i data-icon="close_circle"></i></a></li>
           </ul>
         </nav>
         <h1><a href="/">Poject demo</a></h1>
         <h2>Brand</h2>
       </header>
 
-      <div columns="4 md3 sm1" class="tc-relative">
-        <nav class="tc-sidebar absolute" columns="sm0">
-          <ul class="tc-tabs" columns="3">
-            <li><i icon="user"></i></li>
-            <li class="active"><i icon="search"></i></li>
-            <li><i icon="help_circle"></i></li>
+      <div data-columns="4 md3 sm1" class="tc-relative">
+        <nav class="tc-sidebar absolute" data-columns="sm0">
+          <ul class="tc-tabs" data-columns="3">
+            <li><i data-icon="user"></i></li>
+            <li class="active"><i data-icon="search"></i></li>
+            <li><i data-icon="help_circle"></i></li>
           </ul>
           <nav class="tc-toolbar">
             <ul>
-              <li><i icon="user"></i></li>
+              <li><i data-icon="user"></i></li>
               <li>Edit</li>
-              <li class="active"><i icon="search"></i></li>
-              <li><i icon="help_circle"></i></li>
+              <li class="active"><i data-icon="search"></i></li>
+              <li><i data-icon="help_circle"></i></li>
             </ul>
           </nav>
           <div class="tc-list">
             <ul>
               <li>
                 <input type="text" class="tc-input icon small block">
-                <i icon="search"></i>
+                <i data-icon="search"></i>
               </li>
             </ul>
             <header>Group 1</header>
@@ -67,7 +67,7 @@
             </ul>
           </div>
         </nav>
-        <section class="tc-content" column-offset="1 md1 sm0" column-span="3 md2 sm1">
+        <section class="tc-content" data-column-offset="1 md1 sm0" data-column-span="3 md2 sm1">
           <h2>Forms</h1>
           <p>This page shows basic form elements.</p>
           <div class="tc-row">
@@ -82,14 +82,14 @@
             <label>Sed diam nonummy</label>
             <input type="text" class="tc-input block">
           </article>
-          <article columns="4 sm2 xs1" class="tc-gutter">
-            <div class="tc-row" column-span="2 sm2 xs1">
+          <article data-columns="4 sm2 xs1" class="tc-gutter">
+            <div class="tc-row" data-column-span="2 sm2 xs1">
               <label>Nibh euismod</label>
               <input type="text" class="tc-input block">
             </div>
             <div class="tc-row">
               <label>Tincidunt</label>
-              <div class="tc-dropdown block" icon="angle_down">
+              <div class="tc-dropdown block" data-icon="down">
                 <select name="state">
                   <option>Volutpat</option>
                   <option>Adipiscing</option>
@@ -128,15 +128,15 @@
             <p>Laoreet dolore</p>
             <label class="tc-checkbox">
               <input type="checkbox" checked>
-              <span icon="check">Lorem ipsum dolor sit amet</span>
+              <span data-icon="check">Lorem ipsum dolor sit amet</span>
             </label>
             <label class="tc-checkbox">
               <input type="checkbox">
-              <span icon="check">Hendrerit in vulputate velit esse molestie </span>
+              <span data-icon="check">Hendrerit in vulputate velit esse molestie </span>
             </label>
             <label class="tc-checkbox">
               <input type="checkbox">
-              <span icon="check">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat </span>
+              <span data-icon="check">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat </span>
             </label>
           </article>
           <br>
