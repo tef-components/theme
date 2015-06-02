@@ -5,13 +5,13 @@
   "authors": [
     "the TEF components team"
   ],
-  "description": "TEF components - theme",
+  "description": "TEF components - theme_telefonica",
   "main": "index.html",
   "license": "MIT",
   "ignore": [
     "bower.json",
     ".gitignore",
-    "node_modules",
+    "node_modules"
   ],
   "dependencies": {
     "icons": "tef-components/icons#0.1.26",
