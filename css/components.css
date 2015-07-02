@@ -1459,6 +1459,9 @@ label {
   font-weight: bold;
   padding-right: 7px;
 }
+label.block {
+  display: block;
+}
 .tc-input,
 .tc-textarea {
   display: inline-block;
@@ -1492,9 +1495,7 @@ label {
 .tc-input:hover,
 .tc-textarea:hover,
 .tc-input:focus,
-.tc-textarea:focus,
-.tc-input:active,
-.tc-textarea:active {
+.tc-textarea:focus {
   padding: 7px 8px;
   border: 2px solid #00c6d7;
   outline: none;
@@ -1502,17 +1503,13 @@ label {
 .tc-input:hover.small,
 .tc-textarea:hover.small,
 .tc-input:focus.small,
-.tc-textarea:focus.small,
-.tc-input:active.small,
-.tc-textarea:active.small {
+.tc-textarea:focus.small {
   padding: 5px 8px;
 }
 .tc-input:hover.large,
 .tc-textarea:hover.large,
 .tc-input:focus.large,
-.tc-textarea:focus.large,
-.tc-input:active.large,
-.tc-textarea:active.large {
+.tc-textarea:focus.large {
   padding: 6px 13px;
 }
 .tc-input.icon,
@@ -1522,9 +1519,7 @@ label {
 .tc-input.icon:hover,
 .tc-textarea.icon:hover,
 .tc-input.icon:focus,
-.tc-textarea.icon:focus,
-.tc-input.icon:active,
-.tc-textarea.icon:active {
+.tc-textarea.icon:focus {
   padding-right: 39px;
 }
 .tc-input.icon + [icon],
@@ -1532,7 +1527,7 @@ label {
 .tc-input.icon + [data-icon],
 .tc-textarea.icon + [data-icon] {
   position: relative;
-  top: 3px;
+  bottom: -3px;
   left: -37px;
   width: 40px;
   margin-right: -27px;
@@ -1547,7 +1542,7 @@ label {
 .tc-textarea.icon.small + [icon],
 .tc-input.icon.small + [data-icon],
 .tc-textarea.icon.small + [data-icon] {
-  top: 2px;
+  bottom: -1px;
   left: -32px;
   margin-right: -22px;
 }
@@ -1561,7 +1556,7 @@ label {
 .tc-textarea.icon.large + [icon],
 .tc-input.icon.large + [data-icon],
 .tc-textarea.icon.large + [data-icon] {
-  top: 6px;
+  bottom: -5px;
   left: -40px;
   margin-right: -30px;
 }
@@ -1589,8 +1584,32 @@ label {
 .tc-textarea.block.large + [data-icon] {
   position: absolute;
   right: 0;
+  bottom: 5px;
   left: auto;
   margin-right: 0;
+}
+.tc-input.block.small + [icon],
+.tc-textarea.block.small + [icon],
+.tc-input.block.small + [data-icon],
+.tc-textarea.block.small + [data-icon] {
+  bottom: 4px;
+}
+.tc-input.block.large + [icon],
+.tc-textarea.block.large + [icon],
+.tc-input.block.large + [data-icon],
+.tc-textarea.block.large + [data-icon] {
+  bottom: 7px;
+}
+.tc-input[readonly],
+.tc-textarea[readonly] {
+  cursor: default;
+}
+.tc-input[readonly]:hover,
+.tc-textarea[readonly]:hover,
+.tc-input[readonly]:focus,
+.tc-textarea[readonly]:focus {
+  padding: 8px 9px;
+  border: 1px solid #cfcece;
 }
 .tc-input {
   white-space: nowrap;
@@ -1646,13 +1665,7 @@ label {
 .tc-error .tc-input:focus,
 .tc-ok .tc-textarea:focus,
 .tc-warning .tc-textarea:focus,
-.tc-error .tc-textarea:focus,
-.tc-ok .tc-input:active,
-.tc-warning .tc-input:active,
-.tc-error .tc-input:active,
-.tc-ok .tc-textarea:active,
-.tc-warning .tc-textarea:active,
-.tc-error .tc-textarea:active {
+.tc-error .tc-textarea:focus {
   border-color: #00c6d7;
 }
 .tc-ok .tc-input,
@@ -1681,25 +1694,18 @@ label {
   margin-top: 5px;
   display: block;
 }
-.tc-row,
-.tc-group {
+.tc-row {
   display: block;
   position: relative;
   margin-bottom: 10px;
 }
-.tc-row label,
-.tc-group label {
-  display: block;
-}
-.tc-row label.tc-inline,
-.tc-group label.tc-inline {
-  display: inline-block;
-}
 .tc-row > label + *,
-.tc-group > label + *,
-.tc-row > .tc-message,
-.tc-group > .tc-message {
+.tc-row > .tc-message {
   margin-left: 0;
+}
+.tc-group {
+  display: inline-block;
+  vertical-align: middle;
 }
 .tc-group > * {
   border-radius: 0 !important;
@@ -1720,6 +1726,17 @@ label {
 }
 .tc-group .tc-button + .tc-button {
   border-left-color: white;
+}
+.tc-group.block {
+  display: block;
+}
+.tc-group.block .tc-input.block {
+  width: -webkit-calc(100% - 50px);
+  width: calc(100% - 50px);
+  padding-right: 9px;
+}
+.tc-group.block .tc-input.block + .tc-button {
+  width: 50px;
 }
 [disabled],
 .disabled {

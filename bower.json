@@ -5,7 +5,7 @@
   "authors": [
     "the TEF components team"
   ],
-  "description": "TEF components - theme_telefonica",
+  "description": "TEF components - neutral_theme",
   "main": "index.html",
   "license": "MIT",
   "ignore": [
@@ -16,7 +16,7 @@
   "dependencies": {
     "icons": "tef-components/icons#0.1.27",
     "buttons": "tef-components/buttons#0.2.25",
-    "inputs": "tef-components/inputs#0.1.25",
+    "inputs": "tef-components/inputs#0.1.26",
     "dropdowns": "tef-components/dropdowns#0.2.17",
     "checkboxes": "tef-components/checkboxes#0.2.22",
     "radios": "tef-components/radios#0.2.20",
