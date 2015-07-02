@@ -15,7 +15,7 @@
   ],
   "dependencies": {
     "icons": "tef-components/icons#0.1.27",
-    "buttons": "tef-components/buttons#0.2.24",
+    "buttons": "tef-components/buttons#0.2.25",
     "inputs": "tef-components/inputs#0.1.25",
     "dropdowns": "tef-components/dropdowns#0.2.17",
     "checkboxes": "tef-components/checkboxes#0.2.22",
