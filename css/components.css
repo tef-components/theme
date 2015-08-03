@@ -2255,6 +2255,9 @@ label.tc-switch.right input:checked ~ span:before {
   color: white;
   background-color: #00c6d7;
 }
+.tc-dialog header .tc-button.block {
+  width: 100%;
+}
 .tc-dialog header p {
   font-size: 14px;
   line-height: 25px;
@@ -2281,7 +2284,7 @@ label.tc-switch.right input:checked ~ span:before {
   width: 100%;
 }
 .tc-dialog footer .tc-button + .tc-button {
-  margin: 15px 0 0;
+  margin: 7px 0 0;
 }
 @media only screen and (min-width: 480px) {
   .tc-dialog footer .tc-button {
@@ -2289,8 +2292,15 @@ label.tc-switch.right input:checked ~ span:before {
     width: auto;
     display: inline-block;
   }
+  .tc-dialog footer .tc-button.block {
+    width: 100%;
+  }
   .tc-dialog footer .tc-button + .tc-button {
     margin: 0 0 0 7px;
+  }
+  .tc-dialog footer .tc-button.block + .tc-button.block {
+    width: 100%;
+    margin: 7px 0 0;
   }
 }
 .tc-dialog footer p {
